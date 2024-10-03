@@ -26,3 +26,111 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+.movie-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 10px;
+}
+
+.star-rating {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgba(253, 188, 68, 0.945);
+    font-size: 20px;
+}
+
+.title {
+    font-size: 1.3em;
+    color: rgba(245, 245, 245, 0.884);
+}
+
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mb-0 {
+    margin-top: -15px;
+    color: rgba(245, 245, 245, 0.582);
+}
+
+
+.list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    background-color: #212529;
+    border-color: #0e0f11;
+}
+
+.list-group-flush>.list-group-item:hover{
+    background-color: #3f4549;
+}    
+
+#offcanvasTop{
+    background-color: #282c30;
+    padding-left: 40px;
+    padding-right: 20px;
+    
+}
+
+#offcanvasTopLabel{
+    color: whitesmoke;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+button{
+    color: rgba(245, 245, 245, 0.89);
+}
+
+#overview {
+    color: rgba(245, 245, 245, 0.582);
+}
+
+hr {
+    color: #0e0f11;
+    border-bottom: 3px solid #060607;
+}
+
+#genres {
+    color: rgba(245, 245, 245, 0.582);
+    font-size: 14px;
+}
+
+.genre-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#btnDetalles {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(253, 195, 87, 0.829);
+    border: 2.5px solid rgb(161, 108, 10);;
+}  
+
+#detallesCollapse {
+    width: 20%;
+    height: 30%;
+    float: right;
+}
+
+.card-body {
+    background-color: rgb(127, 128, 133);
+}
+
+.btn-close {  
+    background-color: #686d74e3;
+    color: white;  
+    border-radius: 30%; 
+    border: none; 
+}  
+
+.btn-close:hover {  
+    background-color: #81868db2; 
+} 

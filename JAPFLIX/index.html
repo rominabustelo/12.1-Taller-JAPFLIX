@@ -25,10 +25,35 @@
     </div>
 
     <div class="album">
-      <ul class="list-group container" id="lista">
+      <ul class="list-group list-group-flush container" id="lista">
       </ul>
     </div>
   </main>
+
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
+        <button type="button" class="btn-close" style="color:  rgba(245, 245, 245, 0.856);" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" id="offcanvasBody">
+        <p><strong></strong> <span id="overview"></span></p>
+        <hr>
+          <div class="genre-container">
+            <p id="moreInfo"><strong></strong> <span id="genres"></span></p>
+            <button class="btn btn-secondary" id="btnDetalles" type="button" data-bs-toggle="collapse" data-bs-target="#detallesCollapse" aria-expanded="false" aria-controls="detallesCollapse">
+             More</button>
+          </div>   
+        
+        <div class="collapse" id="detallesCollapse">
+            <div class="card card-body mt-2">
+                <p><strong>Year:</strong> <span id="releaseYear"></span></p>
+                <p><strong>Runtime:</strong> <span id="runtime"></span> minutes</p>
+                <p><strong>Budget:</strong> <span id="budget"></span></p>
+                <p><strong>Revenue:</strong> <span id="revenue"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
 
   <footer class="text-muted py-3">
     <div class="container">
@@ -42,6 +67,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
